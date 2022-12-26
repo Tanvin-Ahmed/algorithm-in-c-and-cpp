@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-const int N = 99;
+int N;
 
 int max(int a, int b)
 {
@@ -30,13 +30,13 @@ int main()
     char y[] = "GXTXAYB";
 
     int m = strlen(x);
-    int n = strlen(y);
+    N = strlen(y);
 
     int dp[m][N];
 
     memset(dp, -1, sizeof(dp));
 
-    printf("Length of LCS is %d\n", lcs(x, y, m, n, dp));
+    printf("Length of LCS is %d\n", lcs(x, y, m, N, dp));
 
     return 0;
 }

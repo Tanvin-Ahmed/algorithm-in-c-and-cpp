@@ -48,3 +48,8 @@ int main()
 
     return 0;
 }
+
+// Counting sort is a sorting technique based on keys between a specific range.
+// Time Complexity : O(N + K) where N is the number of elements
+// in the input array and K is the range of input.
+// Auxiliary Space : O(N + K)

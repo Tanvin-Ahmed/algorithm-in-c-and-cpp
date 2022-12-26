@@ -76,3 +76,11 @@ int main()
 
     return 0;
 }
+
+// The Merge Sort algorithm is a sorting algorithm that is based
+// on the Divide and Conquer paradigm.
+// Time Complexity: O(N log(N)),
+// Sorting arrays on different machines. Merge Sort is a recursive
+// algorithm and time complexity can be expressed as following recurrence relation.
+
+// T(n) = 2T(n / 2) + θ(n)
